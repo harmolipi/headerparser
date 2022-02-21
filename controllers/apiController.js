@@ -1,3 +1,9 @@
 exports.get_whoami = (req, res) => {
-  res.json({ tbd: 'Not yet implemented' });
+  const whoamiJSON = {
+    ipaddress: req.ip,
+    language: req.headers['accept-language'],
+    software: req.headers['user-agent'],
+  };
+
+  res.json(whoamiJSON);
 };
