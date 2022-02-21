@@ -10,7 +10,7 @@ This is the [request header parser microservice](https://www.freecodecamp.org/le
 
 ## Thoughts
 
-Tbd...
+Very simple API. All the necessary information was in the request, and it was just a matter of finding it and returning it as JSON.
 
 God bless.
 
